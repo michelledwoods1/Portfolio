@@ -25,11 +25,24 @@ By providing a portfolio, with several deployed applications, I am more likely t
 - Update html file with default html:5 template
 - Initial Commit
 ### Step 2
--Create header - to include title and 4 links, 3 to page content: AboutMe; Work; ContactMe; 1 to internal file: Resume (create Resume.html and place in assets folder)
+- Head - create title and link .css sheets
+- Body - create shell header, main, sections, articles, footer
+
+body - to include h1 and links (3 to page content: AboutMe; Work; ContactMe; 1 to internal file)
+- Main element - create aside and sections 
+
+ Resume (create Resume.html and place in assets folder)
 - Commit
 ### Step 3
 - Create corresponding sections
 - Work section to include 5 titled images of my applications (1 large (first application) and 4 small)
 - Commit
 ### Step 4
+Mobile Responsive layout - Flexbox/Transitions/Unit Sizes/Color Filtering
+Reverse Engineer/Debug
+Display: flex; (wrap/justify-content
+) flex-direction / order
+align-items;
+
+
 

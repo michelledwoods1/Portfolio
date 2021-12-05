@@ -1,0 +1,28 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color:cyan;
+    color:darkblue;
+    }
+.main-header ul {
+    display: flex;
+    flex-wrap: wrap
+    flex-;
+
+}
+h1 {
+    font-size: 48px;
+}
+
+.subtitle {
+    background-image: url();
+}        
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
