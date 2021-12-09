@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
 
 html {
     height: 100%;
@@ -15,8 +22,4 @@ body {
 }
 h1,h2,h3,h4,h5,h6 {
     font-size: 100%;
-}
-
-ol, ul {
-    list-style: none;
 }
