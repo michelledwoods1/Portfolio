@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    width: 100%
 }
 header {
     display: flex;
@@ -10,36 +9,22 @@ header {
     background-color:cyan;
     color:darkblue;
     font-size: 48px;
+    align-items: center;
     }
-/* 
+
 nav {
     display: flex;
     justify-content: space-between;
     text-align: right;
-    position:relative;
-}
+    font-size: 20px;
+    }
 .box {
     width: 100%;
-    
-}
-h2 {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: flex-start;
-}
-
-div {
-    width: 50%;
-}
-
-
-}
-h1 {
-    /* font-size: 48px; */
+   
 }
 
 header ul{
-position:absolute;
+    display: flex;
 flex-wrap: wrap;
 flex-direction: row;
 display:inline-block;
@@ -53,6 +38,20 @@ header ul li {
 .main-header li {
     padding: 20px;
 }
+h2 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+
+div {
+    width: 50%;
+}
+
+h1 {
+    font-size: 48px;
+}
+
 
 .subtitle {
     display: flex;
@@ -104,4 +103,4 @@ main {
 #minorworks4 {
     background-color:darkgrey;
     width: 50%;
-} */
+}
