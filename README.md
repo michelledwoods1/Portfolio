@@ -45,4 +45,10 @@ Display: flex; (wrap/justify-content
 align-items;
 
 
+committ:
+set widths
+set hovers
+set background colours and images
+set header element colors, background colors; link resume
+
 

@@ -1,72 +1,112 @@
-/* * {
-    box-sizing: border-box;
-  } */
-  
-  body {
-    font-family: Arial;
-    margin: 0;
-  }
-  
-  header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
-    /* align-items: right; */
-    /* padding: 40px; */
-    background:yellow;
-    /* margin:0; */
-    height: 120px;
-    }
-  
-  img {
-    /* max-width: 100%; */
-    height: 120px;
+}
+/* set width to be the entire page */
+.w100 {
+  width: 100%;
 }
 
-h1 {
-    order: 2;
-    align-self: center;
-    font-size: 48px;
-        
+/* set header as flex, so it will apply to h1 and nav */
+/* set positioing, background and color */
+/* set z-index to force header to display at top */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  background: rgb(37, 37, 37);
+  z-index: 1000;
 }
-  /* 
-  What happens when we set the display property to flex?
-  The flex container becomes flexible 
-  */
-  nav {
-    display: flex;
-    color:white;
-    align-self: flex-end;
-    flex-wrap: wrap;
-    order: 2
-  }
-  nav ul {
-      
-  }
 
-  nav a {
+/* set colors, padding and margins */
+header h1 {
+  /* border: 1px solid red; */
+  background-color: #a3f1ee;
+  color: #36383a;
+  font-size: 2.5em;
+  text-align: right;
+  padding: 5px 10px 5px 50px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  margin-right: auto;
+}
+
+/* set margin, font sizer */
+header nav {
+  /* border: 2px solid white; */
+  margin-right: 85px;
+  font-size: 1.3em;
+  align-items: center;
+}
+
+/* set nav ul as flex, so it will apply to li */
+/* align items */
+nav ul {
+/* border: 5px solid blue; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* set margin and border  */
+nav li {
+  /* border: 2px solid green; */
+  margin: 5px;
+  border-bottom: thick solid #a3f1ee;
+}
+
+/* set colour, padding and borders for a tags */
+nav a {
+  /* border: 2px solid yellow; */
+  display: block;
+  color: #a3f1ee;
+  padding: 0.5rem 1rem;
+   
+
+
+
+
+}
+
+nav a:focus {
+  background-color: green;
+  color: red;
+}
+
+nav a:hover {  
+
+}
+nav a:active {
+
+}
+
+ 
+img {
     display: flex;
-    flex-direction: row;
-    width: 200px;
-    color: red;
-    /* padding: 14px 20px; */
-    text-decoration: none;
-    /* text-align: center; */
-  }
-  
-  header nav li {
-      display: flex;
-      justify-content: space-between;
-      flex-direction: ;
-  }
-  /* 
-  What is the flex-wrap property?
-  It specifies whether the flex items should wrap or not 
-  */
-  main {
-    display: flex;
-    flex-wrap: wrap;
-  }
+    max-width: 100%;
+    height: 120px;
+    align-self: baseline;
+}
+
+/* set width to 26% of page for section h2 */
+.w26 {
+  width: 26%;
+}
+
+/* set width to 74% of page*/
+.w74 {
+  width: 74%;
+}
+
+/* width 37% */
+.w37 {
+  width: 37%;
+}
+
+.subtitle {
+    max-width: 100%;
+    background-color: blue;
+}
+.subtitle div {
+  background-color: black;
+}
   
   footer {
     padding: 20px;
@@ -86,6 +126,9 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .work span::before {
+    content: "\a";
   }
   
   /* 
@@ -124,3 +167,12 @@ h1 {
     } */
   }
   
+  @media (max-width: 450px) {
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 1em 0 2m;
+    }
+    header {
+        padding 2% 5%;
+    }

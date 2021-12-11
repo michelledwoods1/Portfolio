@@ -2,17 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     list-style: none;
+
 }
 
 a {
     text-decoration: none;
 }
 
-html {
-    height: 100%;
+
+font-family: 
+/* }
+
+
 }
 
 body {
@@ -22,5 +25,6 @@ body {
 }
 h1,h2,h3,h4,h5,h6 {
     font-size: 100%;
-}
+} */
 
+}
