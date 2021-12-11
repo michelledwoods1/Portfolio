@@ -22,19 +22,25 @@ header h1 {
   background-color: #a3f1ee;
   color: #36383a;
   font-size: 2.5em;
-  text-align: right;
   padding: 5px 10px 5px 50px;
   margin-top: 5px;
   margin-bottom: 15px;
   margin-right: auto;
+  text-align: center;
 }
 
-/* set margin, font sizer */
+.avatar {
+  vertical-align: middle;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+ }
+
+/* set margin, font size */
 header nav {
   /* border: 2px solid white; */
   margin-right: 85px;
   font-size: 1.3em;
-  align-items: center;
 }
 
 /* set nav ul as flex, so it will apply to li */
@@ -57,8 +63,10 @@ nav a {
   /* border: 2px solid yellow; */
   display: block;
   color: #a3f1ee;
+  text-align: left;
   padding: 0.5em 1em;
 }
+
 /* to show all borders when list item is active */
 nav a:focus {
   border: thick solid #a3f1ee
@@ -87,8 +95,10 @@ nav a:hover {
   background-color: #a3f1ee;
   color: #36383a;
   font-size: 1.5em;
+  font-style: italic;
   padding: 5px 10px;
-  margin: 80px 40px
+  margin-right: 85px;
+  margin-bottom: 40px;
 }
 
 /* set class as flex, so it will apply to div and articles*/
@@ -97,118 +107,166 @@ nav a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  font-size: 1em;
+  /* font-size: 1em; */
   margin-top: 30px;
-  padding-left: 20px;
-  color: #1a2f44;
+  /* padding-left: 20px; */
+  color: #244668;
+  /* height:min-content */
  }
 
 /* position wording to the right of avatar */
-/* set id as flex, so it will apply to img and h2 */
-.sectionL {
-  border: 4px solid purple;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: right;
+/* set as flex, so it will apply to img and h2 */
+.section-L {
+  /* border: 12px solid red; */
+  width: 20%;
+  font-size: 2em;
   text-align: right;
-  /* color: #1a2f44; */
-  font-size: 2.5em;
-  width: 25%;
-  margin-right: 20px;
+  margin-right: 15px;
 }
 
-#about img {
-  border: 2px solid rgb(255, 0, 242);
-}
-.sectionL h2 {
-  border: 2px solid rgb(255, 0, 242);
-}
-
-#about span::before {
+h2 span::before {
   content: "\a";
   white-space: pre;
 }
 
-.sectionR {
+.section-R {
   border: 5px dotted black;
-  border-left: thick solid #1a2f44;
-  width: 70%;
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-left: thick solid #244668;
+  /* margin-left: 50px; */
+  /* margin-bottom: 50px; */
+  width: 950px;
+  /* margin-right: 20px;
+  margin-top: 50px; */
+  /* justify-self: flex-end; */
+  /* height: 100%; */
+  /* height: min-content; */
 }
-
 
 p {
-  border: 3px solid brown;
-  padding-left:2em;
+  /* border: 3px solid brown; */
+  /* padding-left:2em; */
   line-height: 1.2;
-  margin: 2em 0;
+  margin-top: 5px;
+  margin-left: 50px;
+  height: min-content;
+  /* padding-top: 2em; */
+  margin-bottom: 10px;
+  /* align-content: center; */
 }
 
-
-
-
-/* set width to 26% of page for section h2 */
-.w26 {
-  width: 26%;
+.section-R article {
+  /* border: 50px solid silver; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+  border: 4px solid #86b9e9;
+  margin: 5px;
+  /* padding: 100px; */
+  /* margin: 50px; */
+  /* width: 100%; */
+  /* height: 10%; */
+  /* margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 50px; */
 }
 
-/* set width to 74% of page*/
-.w74 {
-  width: 74%;
-}
-
-/* width 37% */
-.w37 {
-  width: 37%;
-}
+h3 {
+  /* align-items: flex-start; */
+  /* height: min-content; */
+  background-color: #a3f1ee;
+  /* color: #36383a; */
+  /* font-size: 1.2em;
+  font-weight: bold; */
+  padding: 5px 10px;
+  /* margin-bottom: 1px; */
+  /* align-self: flex-end; */
   
-  footer {
-    padding: 20px;
-    text-align: center;
-    background: #13293d;
-    color: #fff;
-  }
+}
+h3 span {
+  font-weight: lighter;
+  font-size: smaller;
+}
+
+h3 span::before {
+  content: "\a";
+  white-space: pre;
+}
+
+h3:hover {
+
+}
+
+#work {
+  /* border: 2px solid orange; */
+}
+
+#major {
+  background-image: url("./assets/images/surf.bmp");
+  height: 400px;
+  width: 865px;
+  /* flex-basis: fill; */
+  /* width: 100%; */
+  /* padding-left: 150px; */
+  /* margin-left: 30px; */
+  /* align-self: flex-start; */
+  /* height: 100%; */
+}
+
+.minor {
+    /* background-image: url("./assets/images/surf.bmp"); */
+  width: 415px;
+  height: 150px;
+  /* height: 100%; */
+  /* height: 100%; */
+  align-self: center;
   
-  /* 
-  What does the justify-content property do?
-  It is used to align the flex items; in our case, the product cards 
-  */
-  .work {
-    flex: 4;
-    background-color: #fff;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .work span::before {
-    content: "\a";
-  }
-  
+}
+
+#minor1 {
+  background-image: url("./assets/images/led.PNG");
+}
+
+#minor2 {
+  background-image: url("./assets/images/calculator.PNG");
+}
+
+#minor3 {
+    background-image: url("./assets/images/puzzle.PNG");
+}
+
+#minor4 {
+  background-image: url("./assets/images/runbuddy.PNG");
+}
+
+/* .h50 {
+  height: 50%;
+}
+
+.h25 {
+  height: 25%;
+}
+.w50 {
+  width: 50%'' */
+} 
   /* 
   What is the flex property a shorthand property for?
   It is a shorthand property for the flex-grow, flex-shrink, and flex-basis properties 
   What is it doing here?
   We are making the product card not growable, not shrinkable, and with an initial length of 400px 
   */
-  .box {
+  /* .box {
     width: 100%;
     border-style:none
     border-width: 1px;
     border-radius: 10px;
     padding: 10px;
     flex: 0 0 400px;
-  }
-  
-  main .card header {
-    padding: 20px;
-  }
-  
- .card img {
-    width: 100%;
-  }
-  
-  /* 
+  } */
+/* 
   What does the flex-direction property define?
   It defines in which direction the container wants to stack the flex items
   What is it doing here? 
@@ -219,8 +277,7 @@ p {
     nav {
       flex-direction: column;
     } */
-  }
-  
+ /*   
   @media (max-width: 450px) {
     body {
         width: 100%;
@@ -229,4 +286,40 @@ p {
     }
     header {
         padding 2% 5%;
-    }
+    } */
+
+      /* width: 250px; */
+  /* margin-left: 010px; */
+  /* margin-right: 20px; */
+  /* height: 100%; */
+  /* width: 25% */
+}
+/* 
+.content h2 {
+  border: 6px solid green;
+  text-align: right;
+  width: 
+  padding-left: 25px; */
+}
+
+
+    
+/* display: flex; */
+/* flex-wrap: wrap;
+justify-content: right; */
+
+/* #about img {
+  border: 2px solid rgb(255, 0, 242);
+  width: 100%; */
+
+/* }
+.sectionL h2 {
+  text-align: right;
+  border: 2px solid rgb(255, 0, 242);
+} */
+
+/* .sectionL h2 span {
+  border: 12px solid rgb(255, 0, 242);
+} */
+
+/* to access span within about h2 */
