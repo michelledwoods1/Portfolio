@@ -15,9 +15,9 @@
          <!-- navigation list -->
          <nav>
              <ul>
-                <li> <a href="#aboutme">About Me</a></li>
+                <li> <a href="#about">About Me</a></li>
                 <li> <a href="#work">Work</a></li>
-                <li> <a href="#contactme">Contact Me</a></li>
+                <li> <a href="#contact">Contact Me</a></li>
                 <li> <a href="./assets/images/ExampleResume.pdf">Resume</a></li>
             </ul>
         </nav>
@@ -27,15 +27,13 @@
         <h2>... a unique portfolio of bespoke deployments</h2>
      </div>
     
-    <main class="content">
-        <!-- about me -->
-        <section class= "section" id="about">
+     <!-- flex parent -->
+    <main class="content w100">
+        <!-- about me, flex child of content parent-->
+        <section class= "section w100" id="about">
 
-            <div class="section-L">
-               <h2>About<span>Me</span></h2>
-            </div>
-           
-            <div class="section-R">
+            <h2>About <span>Me</span></h2>
+            <div>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe quae quibusdam laboriosam aspernatur eaque neque odit architecto, totam voluptatum? Enim dicta porro voluptates veniam omnis neque modi commodi officiis id.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe quae quibusdam laboriosam aspernatur eaque neque odit architecto, totam voluptatum? Enim dicta porro voluptates veniam omnis neque modi commodi officiis id.</p>
 
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum tempore ipsam ducimus placeat, blanditiis aliquid libero animi? Vitae et quam nisi in excepturi natus, eum tempora velit dolor suscipit</p>
@@ -44,45 +42,40 @@
         </section>
     
         <!-- work -->
-        <section class= "section" id="work">
+        <section class="section w100" id="work">
 
-            <div class="section-L">
-                <h2>Work</h2>
-            </div>
-
+            <h2>Work</h2>
                   
-            <div class="section-R">
+            <div class="container w100">
 
-                        <article class="major" id="major">
-                            <h3>Surf Report <span>MERN Stack</span> </h3>
-                        </article>
-                    
-                        <article class="minor"  id="minor1">
-                            <h3>LED Wall <span>Note/Iot</span></h3>
-                        </article>
+                <article class="major" id="major">
+                    <h3>Refactoring<span>Horiseon</span> </h3>
+                </article> 
 
-                        <article class="minor"  id="minor2">
-                            <h3>Calculator <span>React/JavaScript/CSS</span></h3>
-                        </article>
-                        
-                        <article class="minor" id="minor3">
-                            <h3>Pastel Puzzels <span>MERN Stack</span></h3>
-                        </article>
-            
-                        <article class="minor"  id="minor4">
-                            <h3>Run Buddy <span>HTML/CSS</span></h3>
-                        </article>
-                    </div>
-                </section>
+                <article class="minor"  id="minor1">
+                    <h3>LED Wall <span>Note/Iot</span></h3>
+                </article>
 
+                <article class="minor"  id="minor2">
+                    <h3>Calculator <span>React/JavaScript/CSS</span></h3>
+                </article>
+                
+                <article class="minor" id="minor3">
+                    <h3>Pastel Puzzels <span>MERN Stack</span></h3>
+                </article>
+    
+                <article class="minor"  id="minor4">
+                    <h3>Run Buddy <span>HTML/CSS</span></h3>
+                </article>
+        </section>
+
+        
         <!-- contact -->
-        <section class="section">
+        <section class="section w100" id="contact">
 
-            <div class= "section-L">
-                <h2>Contact</h2>
-            </div>
+            <h2>Contact Me</h2>
 
-            <div>
+            <nav>
                 <ul>
                     <li><a href="#"></a>1300 226 123</li>
                     <li><a href=""></a>email@bigpond.com</li>
@@ -90,7 +83,8 @@
                     <li><a href=""></a>Twitter</li>
                     <li><a href=""></a>Spotify</li>
                 </ul>
-            </div>
+            </nav>
+    
         </section>
     </main>   
 </body>
