@@ -9,7 +9,13 @@ As the course progresses, I will continue to add to this portfolio page, to show
 By providing a portfolio, with several deployed applications, I am more likely to be successful in my career search upon completion of the course.
 
 ## What I learned
+During the completion of this task, I gained a much clearer understanding of flex-box and how children element are governed by their parent element.
 
+I also learned 
+- how to apply box-shading
+- how to apply hover attributes
+- how to apply before attributes
+- how to correctly imbed a heading with an a tag with a hyperlink.
 
 #
 ## Steps Taken
@@ -27,28 +33,17 @@ By providing a portfolio, with several deployed applications, I am more likely t
 ### Step 2
 - Head - create title and link .css sheets
 - Body - create shell header, main, sections, articles, footer
-
-body - to include h1 and links (3 to page content: AboutMe; Work; ContactMe; 1 to internal file)
-- Main element - create aside and sections 
-
- Resume (create Resume.html and place in assets folder)
-- Commit
 ### Step 3
-- Create corresponding sections
-- Work section to include 5 titled images of my applications (1 large (first application) and 4 small)
-- Commit
+- Style Header and Nav Bar
 ### Step 4
-Mobile Responsive layout - Flexbox/Transitions/Unit Sizes/Color Filtering
-Reverse Engineer/Debug
-Display: flex; (wrap/justify-content
-) flex-direction / order
-align-items;
+- Style Body
+### Step 4
+- Add images and links
+- Check all working and deploying correctly
+### Step 5
+- Update and complete README content
 
-
-committ:
-set widths
-set hovers
-set background colours and images
-set header element colors, background colors; link resume
-
-
+#
+[Click here to view Horiseon Website](https://michelledwoods1.github.io/Portfolio/)
+#
+![Screenshot of Website url](assets/screenshot.pdf)
