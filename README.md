@@ -46,4 +46,6 @@ I also learned
 #
 [Click here to view Horiseon Website](https://michelledwoods1.github.io/Portfolio/)
 #
-![Screenshot of Website url](assets/screenshot.pdf)
+
+
+![Screenshot of Website url](/assets/images/website.png)
